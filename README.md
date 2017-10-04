@@ -10,8 +10,6 @@ It will continue to do this task for the number of iterations that we tell it to
 
 Please keep in mind that ' ' (blank spaces) '.' (punctuation) also count as chracters in this model so it can also make spaces and punctuate sentences as they should be and as whatever style source material you used to train the model is written in.
 
-*I am working to expand to a word generation model in the near future.
-
 # What this program code requires
 Not too much just:
 
@@ -22,3 +20,10 @@ Argparse,
 Time, 
 Csv, 
 Matplotlib, 
+
+# Where do we go from here
+Next step with this model I believe is to try and add some more different layers to the LSTM. I believe that a dropout layer might help improve the learning. 
+
+Also we could investigate if it is possible to add in some sort of 'nudge' to get it to predict certain letters more often than it does based on learning from the base text. For example can we adjust the weights so that it predicts the next character to be 's' given it is predicting from 'a'.
+
+Moving on from this model I am working to build up a word generator. It should be structured quite similar to this chracter generator but some slight modifications to made it predict words. I believe this will help with the issue of coherancy of text generated just for the simple fact that undertanding a sentence based on words should be better than one simply based on characters.
