@@ -15,10 +15,10 @@ Please keep in mind that ' ' (blank spaces) '.' (punctuation) also count as chra
 # What this program code requires
 Not too much just:
 
-Python
-Numpy
-Keras
-Argparse
-Time
-Csv
-Matplotlib
+Python, 
+Numpy, 
+Keras, 
+Argparse, 
+Time, 
+Csv, 
+Matplotlib, 
