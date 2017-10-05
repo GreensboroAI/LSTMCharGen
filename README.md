@@ -8,7 +8,7 @@ The model chooses 'a' as the first chracter, it then predicts what the next char
 
 It will continue to do this task for the number of iterations that we tell it to. 
 
-Please keep in mind that ' ' (blank spaces) '.' (punctuation) also count as chracters in this model so it can also make spaces and punctuate sentences as they should be and as whatever style source material you used to train the model is written in.
+Please keep in mind that ' ' (blank spaces) '.' (punctuation) also count as chracters in this model so it can also make spaces and punctuate sentences as they should be and as whatever style the source material you used to train the model is written in.
 
 # What this program code requires
 Not too much just:
