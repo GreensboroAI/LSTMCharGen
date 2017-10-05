@@ -17,9 +17,7 @@ Python,
 Numpy, 
 Keras, 
 Argparse, 
-Time, 
-Csv, 
-Matplotlib, 
+Tensorflow
 
 # Where do we go from here
 Next step with this model I believe is to try and add some more different layers to the LSTM. I believe that a dropout layer might help improve the learning. 
